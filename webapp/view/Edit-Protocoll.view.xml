@@ -1,0 +1,67 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="Protokoll-App.controller.Edit-Protocoll">
+	<App>
+		<pages>
+		    <Page title="{i18n>title}">
+			<content>
+			    <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="true" layout="ResponsiveGridLayout" id="__form0">
+			        <sap.ui.layout.form:content xmlns:sap.ui.layout.form="sap.ui.layout.form">
+			            <sap.ui.core:Title xmlns:sap.ui.core="sap.ui.core" text="Eckdaten:" id="__title0"/>
+			            <Label text="Label 1" id="__label3"/>
+			            <Input width="100%" id="__input0"/>
+			            <Input width="100%" id="__input1"/>
+			            <Label text="Label 2" id="__label4"/>
+			            <Input width="100%" id="__input2"/></sap.ui.layout.form:content>
+			    </sap.ui.layout.form:SimpleForm>
+			    <Table noDataText="Drop column list items here and columns in the area above" id="__table0">
+			        <items>
+			            <ColumnListItem counter="0" id="__item7">
+			                <cells>
+			                    <sap.ui.core:Icon ariaLabelledBy="__xmlview0--__text26" src="sap-icon://add" size="2em" xmlns:sap.ui.core="sap.ui.core" id="__icon0"/>
+			                    <Text text="Row 2 Cell 1" maxLines="0" id="__text20"/>
+			                    <Text text="No text specified" maxLines="0" id="__text8"/>
+			                    <Text text="Row 2 Cell 2" maxLines="0" id="__text21"/>
+			                    <Text text="Row 2 Cell 3" maxLines="0" id="__text22"/>
+			                    <sap.ui.core:Icon ariaLabelledBy="__xmlview0--__label0" src="sap-icon://delete" size="2em" xmlns:sap.ui.core="sap.ui.core" id="__icon1"/>
+			                    <sap.ui.core:Icon ariaLabelledBy="__xmlview0--__label1" src="sap-icon://arrow-right" size="2em" xmlns:sap.ui.core="sap.ui.core" id="__icon2"/></cells>
+			            </ColumnListItem></items>
+			        <columns>
+			            <Column id="__column6">
+			                <header>
+			                    <Text maxLines="0" id="__text26"/>
+			                </header>
+			            </Column>
+			            <Column id="__column5">
+			                <header>
+			                    <Text text="TOP" maxLines="0" id="__text25"/>
+			                </header>
+			            </Column>
+			            <Column id="__column4">
+			                <header>
+			                    <Text text="Informationen" maxLines="0" id="__text24"/>
+			                </header>
+			            </Column>
+			            <Column id="__column3">
+			                <header>
+			                    <Text text="Priorität" maxLines="0" id="__text23"/>
+			                </header>
+			            </Column>
+			            <Column id="__column0">
+			                <header>
+			                    <Label text="Eingebracht von" id="__label0"/>
+			                </header>
+			            </Column>
+			            <Column id="__column1">
+			                <header>
+			                    <Label id="__label1"/>
+			                </header>
+			            </Column>
+			            <Column id="__column2">
+			                <header>
+			                    <Label id="__label2"/>
+			                </header>
+			            </Column></columns></Table>
+			</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
