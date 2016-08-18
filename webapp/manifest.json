@@ -102,31 +102,36 @@
 					]
 				}
 			},
-			"routes": [{
-				"pattern": "1467710750930_S0/:context:",
-				"name": "1467710750930_S0",
-				"target": [
-					"1467710750930_S0"
-				]
-			}, {
-				"pattern": "1467712000926_S1/:context:",
-				"name": "1467712000926_S1",
-				"target": [
-					"1467712000926_S1"
-				]
-			}, {
-				"pattern": "1467718759783_S2/:context:",
-				"name": "1467718759783_S2",
-				"target": [
-					"1467718759783_S2"
-				]
-			}, {
-				"pattern": "",
-				"name": "default",
-				"target": [
-					"1467710750930_S0"
-				]
-			}],
+			"routes": [
+				{
+					"pattern": "1467710750930_S0/:context:",
+					"name": "1467710750930_S0",
+					"target": [
+						"1467710750930_S0"
+					]
+				},
+				{
+					"pattern": "1467712000926_S1/:context:",
+					"name": "1467712000926_S1",
+					"target": [
+						"1467712000926_S1"
+					]
+				},
+				{
+					"pattern": "1467718759783_S2/:context:",
+					"name": "1467718759783_S2",
+					"target": [
+						"1467718759783_S2"
+					]
+				},
+				{
+					"pattern": "",
+					"name": "default",
+					"target": [
+						"1467710750930_S0"
+					]
+				}
+			],
 			"targets": {
 				"1467710750930_S0": {
 					"controlAggregation": "pages",
@@ -148,5 +153,9 @@
 				}
 			}
 		}
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
 	}
 }
