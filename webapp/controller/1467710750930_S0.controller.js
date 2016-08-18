@@ -29,6 +29,21 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 			this.doNavigate("1467718759783_S2", oBindingContext);
 
 		},
+
+		onPdf: function() {
+
+
+
+			alert("PDF vorher");
+
+			var doc = new jsPDF('p', 'pt', 'a2');
+			//doc.autoTable(columns, data, {});
+			doc.text(35, 25, "Kundenliste");
+			doc.save('table.pdf');
+
+			alert("PDF nachher");
+
+		},
 		doNavigate: function(sRouteName, oBindingContext) {
 
 			var that = this;
