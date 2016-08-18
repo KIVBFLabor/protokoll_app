@@ -1,0 +1,146 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.1467710750930_S0" xmlns:m="sap.m"
+	xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<m:Page id="sap_Responsive_Page_0" showHeader="true" title="Neues Protokoll erstellen" showFooter="true" showNavButton="false">
+		<m:content>
+			<m:ToolbarSpacer id="sap_Responsive_Page_0-content-sap_m_ToolbarSpacer-1467716536510" width=""/>
+			<form:Form id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734" width="100%" visible="true">
+				<form:formContainers>
+					<form:FormContainer
+						id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1" visible="true">
+						<form:formElements>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1"
+								visible="true">
+								<form:fields>
+									<m:RadioButton
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-fields-sap_m_RadioButton-1467717058124"
+										selected="false" text="Jour Fix" editable="true" enabled="true" visible="true" width="auto" valueState="None"/>
+									<m:RadioButton
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-fields-sap_m_RadioButton-1467717060819"
+										selected="false" text="FB-Meeting" editable="true" enabled="true" visible="true" width="auto" valueState="None"/>
+									<m:RadioButton
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-fields-sap_m_RadioButton-1467717064555"
+										selected="false" text="Sonstiges" editable="true" enabled="true" visible="true" width="auto" valueState="None"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-label-sap_m_Label-1"
+										text="Art der Besprechung" design="Standard" width="100%" required="true" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2"
+								visible="true">
+								<form:fields>
+									<m:DatePicker
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2-fields-sap_m_DatePicker-1467717136381"
+										displayFormat="MMM dd, yyyy" enabled="true" visible="true" width="auto"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2-label-sap_m_Label-1"
+										text="Datum" design="Standard" width="100%" required="true" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3"
+								visible="true">
+								<form:fields>
+									<m:Input
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3-fields-sap_m_Input-1467717152941"
+										placeholder="Protokollführer hinzufügen..." type="Text" showValueHelp="false" enabled="true" visible="true" width="auto"
+										valueHelpOnly="false" maxLength="0"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3-label-sap_m_Label-1"
+										text="Protokollführer" design="Standard" width="100%" required="true" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4"
+								visible="true">
+								<form:fields>
+									<m:Input
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4-fields-sap_m_Input-1467717223530"
+										placeholder="Teilnehmer hinzufügen..." type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false"
+										maxLength="0"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-4-label-sap_m_Label-1"
+										text="Teilnehmer" design="Standard" width="100%" required="true" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717187017"
+								visible="true">
+								<form:fields>
+									<m:Input
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717187017-fields-sap_m_Input-1467717227641"
+										value="Johannes Konings" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717187017-label-sap_m_Label-1"
+										text="" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717204746"
+								visible="true">
+								<form:fields>
+									<m:Input
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717204746-fields-sap_m_Input-1467717229962"
+										value="Sascha Wächter" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717204746-label-sap_m_Label-1"
+										text="" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717209362"
+								visible="true">
+								<form:fields>
+									<m:Input
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717209362-fields-sap_m_Input-1467717232284"
+										value="Robert Ehni" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" maxLength="0"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467717209362-label-sap_m_Label-1"
+										text="" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+						</form:formElements>
+					</form:FormContainer>
+				</form:formContainers>
+				<form:layout>
+					<form:ResponsiveGridLayout
+						id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-layout-sap_ui_layout_form_ResponsiveGridLayout-1" columnsM="1"
+						columnsL="2" emptySpanL="0" emptySpanM="0" emptySpanS="0" visible="true" labelSpanS="12" labelSpanM="2" labelSpanL="4"/>
+				</form:layout>
+				<form:title>
+					<core:Title id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734-title-sap_ui_core_Title-1"
+						text="Bitte füllen Sie alle Felder aus:" level="Auto"/>
+				</form:title>
+			</form:Form>
+		</m:content>
+		<m:footer>
+			<m:Bar id="sap_Responsive_Page_0-footer-sap_m_Bar-1" design="Auto">
+				<m:contentLeft/>
+				<m:contentMiddle/>
+				<m:contentRight>
+					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-1" iconDensityAware="false" text="Protokoll anlegen"
+						type="Accept" iconFirst="true" width="auto" enabled="true" visible="true"
+						press="_onPressSapResponsivePage0footersapmBar1contentRightsapmButton1"/>
+				</m:contentRight>
+			</m:Bar>
+		</m:footer>
+		<m:headerContent/>
+		<m:subHeader/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>

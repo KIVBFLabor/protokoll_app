@@ -1,11 +1,15 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"Protokoll-App/model/models"
+	"generated/app/model/models"
 ], function(UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("Protokoll-App.Component", {
+	var navigationWithContext = {
+
+	};
+
+	return UIComponent.extend("generated.app.Component", {
 
 		metadata: {
 			manifest: "json"
@@ -17,11 +21,33 @@ sap.ui.define([
 		 * @override
 		 */
 		init: function() {
+			// set the device model
+			this.setModel(models.createDeviceModel(), "device");
+			// set the FLP model
+			this.setModel(models.createFLPModel(), "FLP");
+
 			// call the base component's init function
 			UIComponent.prototype.init.apply(this, arguments);
 
-			// set the device model
-			this.setModel(models.createDeviceModel(), "device");
+			// create the views based on the url/hash
+			this.getRouter().initialize();
+		},
+
+		createContent: function() {
+			var app = new sap.m.App({
+				id: "App"
+			});
+			var appType = "App";
+			if (appType === "App") {
+				app.setBackgroundColor("#FFFFFF");
+			}
+
+			return app;
+		},
+
+		getNavigationPropertyForNavigationWithContext: function(entityNameSet, targetPageName) {
+			var entityNavigations = navigationWithContext[entityNameSet];
+			return entityNavigations == null ? null : entityNavigations[targetPageName];
 		}
 	});
 

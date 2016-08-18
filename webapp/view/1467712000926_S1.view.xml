@@ -1,0 +1,267 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="generated.app.controller.1467712000926_S1" xmlns:m="sap.m"
+	xmlns:layout="sap.ui.layout" xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<m:Page id="sap_Responsive_Page_0" showHeader="true" title="Jour Fix Protokoll vom 13.3.2016" showFooter="true" showNavButton="false">
+		<m:content>
+			<layout:VerticalLayout id="sap_Responsive_Page_0-content-sap_ui_layout_VerticalLayout-1467712119799" width="100%" visible="true">
+				<layout:content/>
+			</layout:VerticalLayout>
+			<form:Form id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941" width="1280px" visible="true">
+				<form:formContainers>
+					<form:FormContainer
+						id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1" visible="true">
+						<form:formElements>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1"
+								visible="true">
+								<form:fields>
+									<m:Text
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-fields-sap_m_Text-1"
+										text="Robert Ehni" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1-label-sap_m_Label-1"
+										text="Protokollführer" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2"
+								visible="true">
+								<form:fields>
+									<m:Text
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2-fields-sap_m_Text-1"
+										text="07-05-2016" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-2-label-sap_m_Label-1"
+										text="Datum" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3"
+								visible="true">
+								<form:fields>
+									<m:Text
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3-fields-sap_m_Text-1"
+										text="Johannes Konings" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-3-label-sap_m_Label-1"
+										text="Teilnehmer" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467718416713"
+								visible="true">
+								<form:fields>
+									<m:Text
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467718416713-fields-sap_m_Text-1"
+										text="Sascha Wächter" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467718416713-label-sap_m_Label-1"
+										text="" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+							<form:FormElement
+								id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467718422101"
+								visible="true">
+								<form:fields>
+									<m:Text
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467718422101-fields-sap_m_Text-1"
+										text="Robert Ehni" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:fields>
+								<form:label>
+									<m:Label
+										id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-formContainers-sap_ui_layout_form_FormContainer-1-formElements-sap_ui_layout_form_FormElement-1467718422101-label-sap_m_Label-1"
+										text="" design="Standard" width="100%" required="false" textAlign="Begin" textDirection="Inherit"/>
+								</form:label>
+							</form:FormElement>
+						</form:formElements>
+					</form:FormContainer>
+				</form:formContainers>
+				<form:layout>
+					<form:ResponsiveGridLayout
+						id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-layout-sap_ui_layout_form_ResponsiveGridLayout-1" columnsM="1"
+						columnsL="2" emptySpanL="0" emptySpanM="0" emptySpanS="0" visible="true" labelSpanS="12" labelSpanM="2" labelSpanL="4"/>
+				</form:layout>
+				<form:title>
+					<core:Title id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467712133941-title-sap_ui_core_Title-1"
+						text="Wichtige Informationen:" level="Auto"/>
+				</form:title>
+			</form:Form>
+			<m:Table id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146" mode="SingleSelectMaster" width="100%" noDataText="No data"
+				backgroundDesign="Translucent" showSeparators="All" growing="false" growingThreshold="20" growingScrollToLoad="false" visible="true">
+				<m:items>
+					<m:ColumnListItem id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467712514926" type="Active">
+						<m:cells>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467712514926-cells-sap_m_Text-1467717893876"
+								text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467712514926-cells-sap_m_Text-1467717861622"
+								text="1" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467712514926-cells-sap_m_Text-1467717806266"
+								text="Mit der Protokoll-Web-App könnten ganz einfach On-The-Fly strukturierte und übersichtliche Protkolle für Jour Fixe o.ä. erstellt werden"
+								width="180px" maxLines="10" wrapping="true" textAlign="Begin" textDirection="Inherit"/>
+							<m:RatingIndicator
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467712514926-cells-sap_m_RatingIndicator-1467712555171"
+								value="4" maxValue="5" visualMode="Half" enabled="true" visible="true"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467712514926-cells-sap_m_Text-1467718023076"
+								text="Robert Ehni" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<core:Icon
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467712514926-cells-sap_ui_core_Icon-1467716159095"
+								src="sap-icon://delete" size="48px" height="48px" width="48px" visible="true"/>
+							<core:Icon
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467712514926-cells-sap_ui_core_Icon-1467718132716"
+								src="sap-icon://add" size="48px" height="48px" width="48px" visible="true"/>
+						</m:cells>
+					</m:ColumnListItem>
+					<m:ColumnListItem id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718164403" type="Active">
+						<m:cells>
+							<m:ObjectIdentifier
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718164403-cells-sap_m_ObjectIdentifier-1"
+								title="" text="" titleActive="false" visible="true"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718164403-cells-sap_m_Text-2" text="1_2"
+								width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718164403-cells-sap_m_Text-1467718241885"
+								text="Ich weiß nicht wie man einen Punkt schreibt aber auch Unterebenen von TOPs sind möglich um im Nachhinein Informationen hinzuzufügen und logisch zu gliedern! Hierzu muss man einfach auf das Plus neben dem Mülleimer klicken!"
+								width="180px" maxLines="10" wrapping="true" textAlign="Begin" textDirection="Inherit"/>
+							<m:RatingIndicator
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718164403-cells-sap_m_RatingIndicator-1467718313119"
+								value="3" maxValue="5" visualMode="Half" enabled="true" visible="true"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718164403-cells-sap_m_Text-1467718295162"
+								text="Robert Ehni" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<core:Icon
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718164403-cells-sap_ui_core_Icon-1467718289601"
+								src="sap-icon://delete" size="48px" height="48px" width="48px" visible="true"/>
+							<core:Icon
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718164403-cells-sap_ui_core_Icon-1467718291426"
+								src="sap-icon://add" size="48px" height="48px" width="48px" visible="true"/>
+						</m:cells>
+					</m:ColumnListItem>
+					<m:ColumnListItem id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467717530583" type="Active">
+						<m:cells>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467717530583-cells-sap_m_Text-1467718051244"
+								text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467717530583-cells-sap_m_Text-1467717618465"
+								text="2" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467717530583-cells-sap_m_Text-1467717949521"
+								text="Schon während der Erstellung kann eine Prioisierung für die TOPs festgelegt werden" width="180px" maxLines="5" wrapping="true"
+								textAlign="Begin" textDirection="Inherit"/>
+							<m:RatingIndicator
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467717530583-cells-sap_m_RatingIndicator-1467718002473"
+								value="1" maxValue="5" visualMode="Half" enabled="true" visible="true"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467717530583-cells-sap_m_Text-1467717762814"
+								text="Robert Ehni" width="210px" maxLines="10" wrapping="true" textAlign="Begin" textDirection="Inherit"/>
+							<core:Icon
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467717530583-cells-sap_ui_core_Icon-1467717607282"
+								src="sap-icon://delete" size="48px" height="48px" width="48px" visible="true"/>
+							<core:Icon
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467717530583-cells-sap_ui_core_Icon-1467718152093"
+								src="sap-icon://add" size="48px" height="48px" width="48px" visible="true"/>
+						</m:cells>
+					</m:ColumnListItem>
+					<m:ColumnListItem id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718494915" type="Active">
+						<m:cells>
+							<core:Icon
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718494915-cells-sap_ui_core_Icon-1467718555665"
+								src="sap-icon://add" size="48px" height="48px" width="48px" visible="true"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718494915-cells-sap_m_Text-2" text="3"
+								width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+							<m:Input
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718494915-cells-sap_m_Input-1467718511331"
+								placeholder="Informationen eintragen..." type="Text" showValueHelp="false" enabled="true" visible="true" width="180px" valueHelpOnly="false"
+								maxLength="0"/>
+							<m:RatingIndicator
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718494915-cells-sap_m_RatingIndicator-1467718536262"
+								value="0" maxValue="5" visualMode="Half" enabled="true" visible="true"/>
+							<m:Input
+								id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718494915-cells-sap_m_Input-1467718514269"
+								placeholder="Teilnehmer auswählen..." type="Text" showValueHelp="false" enabled="true" visible="true" width="180px" valueHelpOnly="false"
+								maxLength="0"/>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-items-sap_m_ColumnListItem-1467718494915-cells-sap_m_Text-1467718529536"
+								text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:cells>
+					</m:ColumnListItem>
+				</m:items>
+				<m:headerToolbar/>
+				<m:columns>
+					<m:Column id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1467717488154" width="auto" hAlign="Left"
+						vAlign="Top" mergeDuplicates="false" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline">
+						<m:header>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1467717488154-header-sap_m_Text-1" text=""
+								width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1" width="auto" hAlign="Left" vAlign="Top"
+						mergeDuplicates="false" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline">
+						<m:header>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1-header-sap_m_Text-1" text="TOP" width="auto"
+								maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-2" width="auto" hAlign="Left" vAlign="Top"
+						mergeDuplicates="false" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline">
+						<m:header>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-2-header-sap_m_Text-1" text="Information"
+								width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-3" width="auto" hAlign="Left" vAlign="Top"
+						mergeDuplicates="false" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline">
+						<m:header>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-3-header-sap_m_Text-1" text="Priorität"
+								width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1467712411202" width="auto" hAlign="Left"
+						vAlign="Top" mergeDuplicates="false" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline">
+						<m:header>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1467712411202-header-sap_m_Text-1"
+								text="Eingebracht von" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1467717490477" width="auto" hAlign="Left"
+						vAlign="Top" mergeDuplicates="false" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline">
+						<m:header>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1467717490477-header-sap_m_Text-1" text=""
+								width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+					<m:Column id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1467718105327" width="auto" hAlign="Left"
+						vAlign="Top" mergeDuplicates="false" minScreenWidth="Tablet" demandPopin="true" popinDisplay="Inline">
+						<m:header>
+							<m:Text id="sap_Responsive_Page_0-content-sap_m_Table-1467712262146-columns-sap_m_Column-1467718105327-header-sap_m_Text-1" text=""
+								width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit"/>
+						</m:header>
+						<m:footer/>
+					</m:Column>
+				</m:columns>
+			</m:Table>
+		</m:content>
+		<m:footer>
+			<m:Bar id="sap_Responsive_Page_0-footer-sap_m_Bar-1" design="Auto">
+				<m:contentLeft/>
+				<m:contentMiddle/>
+				<m:contentRight>
+					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-1" iconDensityAware="false" text="Protokoll speichern"
+						type="Accept" iconFirst="true" width="auto" enabled="true" visible="true"/>
+					<m:Button id="sap_Responsive_Page_0-footer-sap_m_Bar-1-contentRight-sap_m_Button-2" iconDensityAware="false" text="Protokoll verwerfen"
+						type="Reject" iconFirst="true" width="auto" enabled="true" visible="true"
+						press="_onPressSapResponsivePage0footersapmBar1contentRightsapmButton2"/>
+				</m:contentRight>
+			</m:Bar>
+		</m:footer>
+		<m:headerContent/>
+		<m:subHeader/>
+		<m:customHeader/>
+	</m:Page>
+</mvc:View>
