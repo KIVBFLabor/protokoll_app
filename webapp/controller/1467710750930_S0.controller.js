@@ -1,4 +1,7 @@
-sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
+sap.ui.define([	"sap/ui/core/mvc/Controller",
+				"../jspdf",
+				"../jspdf.min",
+				"../jspdf.plugin.autotable"], function(BaseController) {
 	"use strict";
 
 	return BaseController.extend("generated.app.controller.1467710750930_S0", {
@@ -31,17 +34,19 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function(BaseController) {
 		},
 
 		onPdf: function() {
-
-
-
-			alert("PDF vorher");
+			
+			var data = [{id: "0001", top: "t1"},
+						{id: "0002", top: "t2"},
+						{id: "0003", top: "t3"}];
+			
+			var columns = [{title: "Id", key: "id"},
+                           {title: "TOP", key: "top"}
+                                             ];
 
 			var doc = new jsPDF('p', 'pt', 'a2');
-			//doc.autoTable(columns, data, {});
+			doc.autoTable(columns, data, {});
 			doc.text(35, 25, "Kundenliste");
 			doc.save('table.pdf');
-
-			alert("PDF nachher");
 
 		},
 		doNavigate: function(sRouteName, oBindingContext) {
