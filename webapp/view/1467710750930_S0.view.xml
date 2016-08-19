@@ -3,6 +3,7 @@
 	<m:Page id="sap_Responsive_Page_0" showHeader="true" title="Neues Protokoll erstellen" showFooter="true" showNavButton="false">
 		<m:content>
 			<m:ToolbarSpacer id="sap_Responsive_Page_0-content-sap_m_ToolbarSpacer-1467716536510" width=""/>
+			<m:Button id="pdf" text="PDF" press="onPdf" ></m:Button>
 			<form:Form id="sap_Responsive_Page_0-content-sap_ui_layout_form_Form-1467716966734" width="100%" visible="true">
 				<form:formContainers>
 					<form:FormContainer
